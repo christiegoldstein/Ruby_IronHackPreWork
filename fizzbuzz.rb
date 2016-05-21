@@ -1,15 +1,15 @@
+number = 1
 
-
-1.upto(100) do |i|
-    if(i % 3 == 0)
+while number < 101
+    if(number % 3 == 0)
         puts "Fizz"
     end
     
-    if(i % 5 == 0)
+    if(number % 5 == 0)
         puts "Buzz"
     end
     
-    if(i % 3 != 0 && i % 5 != 0)
-        puts i
+    if(number % 3 != 0 && number % 5 != 0)
+        number i
     end
 end
